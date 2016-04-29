@@ -16,6 +16,7 @@ install:
 
 script:
   - python -m unittest
+
 #  # Normal tests
 #  - fab test
 #  # Integration tests
@@ -27,7 +28,7 @@ script:
 #  - invoke docs -o -W
 #  - invoke www -c -o -W
 
-#notifications:
+notifications:
   recipients:
     - allenjiancan@gmail.com
   on_success: change
