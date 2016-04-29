@@ -4,7 +4,7 @@ __author__ = 'cjc'
 import unittest
 import startup
 
-class MyTestCase(unittest.TestCase):
+class CompanyTestCase(unittest.TestCase):
     def test_name(self):
         name = "myname"
         company = startup.Company(name)

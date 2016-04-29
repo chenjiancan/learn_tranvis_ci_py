@@ -15,6 +15,7 @@ install:
 #  - ssh-add
 
 script:
+  python
 #  # Normal tests
 #  - fab test
 #  # Integration tests
@@ -27,6 +28,10 @@ script:
 #  - invoke www -c -o -W
 
 #notifications:
+  recipients:
+    - allenjiancan@gmail.com
+  on_success: change
+  on_failure: always
 #  irc:
 #    channels: "irc.freenode.org#fabric"
 #    template:
