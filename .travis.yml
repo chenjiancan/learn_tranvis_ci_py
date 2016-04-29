@@ -15,7 +15,7 @@ install:
 #  - ssh-add
 
 script:
-  python -m unittest
+  - python -m unittest
 #  # Normal tests
 #  - fab test
 #  # Integration tests
