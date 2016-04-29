@@ -21,7 +21,7 @@ script:
   - python -m unittest           
 ```
 
-3. go [https://travis-ci.org/profile] and enable the target repo to track
+3. go [travis-ci](https://travis-ci.org/profile) and enable the target repo to track
 
 4. commit something new to the repo and push onto github
 
